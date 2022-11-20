@@ -6,12 +6,11 @@ Simple repo used to test laravel features and funny packages
 ## Start the project (with docker)
 
 ```
-curl -s https://laravel.build/example-app | bash
-cd example-app
+cp .env.example .env
 ./vendor/bin/sail up
+npm install
+npm run dev
 ```
-
-
 
 
 # About Laravel
